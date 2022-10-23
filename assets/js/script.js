@@ -1,4 +1,4 @@
-var apiKey = '44b7a2530fc38f6834d04bd0e3d9e4b6'
+var apiKey = ''
 // var apiWeather = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&appid=' + apiKey
 // var apiGeocode = 'https://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=1&appid=' + apiKey
 
