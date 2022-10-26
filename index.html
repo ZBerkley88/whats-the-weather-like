@@ -21,11 +21,9 @@
 <body>
 
         <header class="jumbotron">
-                <h1 class="display-3">Berkley Weather Forecast</h1>
+                <h1 class="display-3">An Amazing Weather Forecast App</h1>
         </header>
     
-        <section class='text-center notification' id="notify">Notification Goes Here✔️</section>
-
         <div class="container row">
 
                 <div class="search col-3">
@@ -35,38 +33,24 @@
 
         </div>
 
-        <div class="container row">
-          
-                <div id="today" class="col day-block">
-                        Today
-                </div>
-
+        <div id='history' class="container row">        
+        <h2>Recent Searches</h2>
         </div>
-        
-        <div class="container row">
 
-                <div id="day-1" class="day-block col">
-                Day 1
+        <!-- contains all weather card information -->
+        <div id="weather-blocks">
+
+                <div class="container row">
                 </div>
                 
-                <div id="day-2" class="day-block col">
-                Day 2
-                </div>
-                
-                <div id="day-3" class="day-block col">
-                Day 3
-                </div>
-                
-                <div id="day-4" class="day-block col">
-                Day 4
-                </div>
 
-                <div id="day-5" class="day-block col">
-                Day 5
+                <div id='forecast' class="container row">        
                 </div>
-
-        </div>
     
+        </div>
+
+
+
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="./assets/js/script.js"></script> 
