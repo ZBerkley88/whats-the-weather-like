@@ -5,7 +5,6 @@ var todayContainer = document.querySelector('#today');
 var forecastContainer = document.querySelector('#forecast');
 var historyContainer = document.querySelector('#history');
 
-
 $('#searchBtn').on('click', function() {
 
     // stores the user search query in the variable 'cityName'
@@ -204,3 +203,4 @@ var previousSearches = function(data) {
 
     }
 }
+
